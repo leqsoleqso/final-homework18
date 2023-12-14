@@ -1,0 +1,101 @@
+body {
+    background-color: #2a2a2a ;
+}
+ .region { 
+    display: flex;    
+    color:  #e4e4e4;
+    padding-left: 100px;
+    justify-content: space-around;
+    width: 700px;
+    cursor: pointer; 
+    margin-left: 410px;
+    transform: translateY(40px);
+
+ }
+  
+.region div {
+    color: #bfbfbf;      
+}
+.line {
+    width: 1px;
+    height: 20px;
+    background:  #000000;
+    display: inline-block;
+    margin: 2px; 
+    margin-left: 10px;
+   
+ }    
+ 
+ .history {
+    margin-left: 50px;
+    color: #d3d1d1;
+    width: 550px;
+    height: 100px;
+  
+ }
+ .history h1 {
+width: 400px;
+height: 40px;
+color: #807c7c;
+font-size: x-large;
+ }
+ 
+ .photo {
+    width: 170px;
+    height: 100px;
+    display: flex;
+    margin-left: 940px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;  
+ }
+ .photo img {
+    justify-content: space-around;
+    padding-left: 40px;  
+    width: 600px;
+    height: 270px;
+ }
+.kazbegi {
+padding: 250px;
+}
+.kazbegi h1 {
+    width: 700px;
+    height: 100px;
+    color:  #807c7c;
+    font-size: x-large;
+}
+.kazbegi p {
+    width: 800px;
+    height: 200px;
+    color: #d1cece;
+    font-size: large;
+    margin-left: 200px;
+}
+.kazbegi h3 {
+    padding: 340px;
+    width: 700px;
+    height: 200px;
+    margin-right: 10px; 
+    display: flex;  
+}
+.photo1 img {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    margin-left: 1170px;   
+}
+.ame img {
+    width: 500px;
+    height: 690px;
+}
+
+ 
+
+  
+  
+
+
+
+
+
+
