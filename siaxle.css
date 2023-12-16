@@ -14,8 +14,21 @@ body {
  }
   
 .region div {
-    color: #bfbfbf;      
-}
+   color: #bfbfbf;   
+   letter-spacing: 0.5px;  
+   color: rgb(206, 236, 227);
+   animation-duration: 3s;
+   animation-name: example;
+ }
+ 
+ @keyframes example {
+   from {color: rgb(11, 238, 162);}
+   to   {color: rgb(54, 230, 171);}
+   to   {color: rgb(106, 232, 190);}
+   to   {color: rgb(197, 248, 231);}
+ } 
+
+
 .line {
     width: 1px;
     height: 20px;

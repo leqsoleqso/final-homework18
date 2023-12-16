@@ -3,7 +3,7 @@ body {
 }
  .region { 
     display: flex;
-    color:  #e4e4e4;
+    color:  #444242;
     padding-left: 100px;
     justify-content: space-around;
     width: 700px;
@@ -12,6 +12,21 @@ body {
     transform: translateY(40px);
   
  }
+ .region div {
+  color: #555353;   
+  letter-spacing: 0.5px;  
+  color: rgb(206, 193, 225);;
+  animation-duration: 3s;
+  animation-name: example;
+}
+
+@keyframes example {
+  from {color: rgb(69, 46, 247);}
+  to  {color: rgb(108, 108, 230);}
+  to  {color: rgb(165, 165, 236);}
+  to  {color: rgb(206, 193, 225);}
+} 
+ 
  .start {
     margin-left: 20px;
  }

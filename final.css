@@ -14,8 +14,20 @@ body {
  }
  
 .region div {
-    color: #bfbfbf;      
-}
+    color: #bfbfbf;   
+    letter-spacing: 0.5px;  
+    color: rgb(205, 205, 205);
+    animation-duration: 3s;
+    animation-name: example;
+  }
+  
+  @keyframes example {
+    from {color: rgb(47, 47, 47);}
+    to  {color: rgb(106, 106, 107);}
+    to  {color: rgb(166, 166, 167);}
+    to  {color: rgb(204, 204, 207);}
+  }
+
 .line {
     width: 1px;
     height: 20px;
@@ -38,6 +50,7 @@ width: 400px;
 height: 40px;
 color: #807c7c;
 font-size: x-large;
+text-transform: uppercase;
  }
  
  .photo {
