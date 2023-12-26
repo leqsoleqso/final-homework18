@@ -224,11 +224,11 @@ font-size: x-large;
    
 }
 
-   .imaginee {
-      width: 290px;
-      height: 100px;
+.imaginee {
+      width: 280px;
+      height: 80px;
       display: flex;
-      margin-left: 940px;
+      margin-left: 900px;
       display: flex;
       justify-content: space-around;
       padding-left: 100px; 
