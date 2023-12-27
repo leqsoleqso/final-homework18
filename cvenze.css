@@ -50,13 +50,13 @@ body {
    
  }  
  .photo {
-    width: 400px;
-    height: 300px;
-    display: flex;
+    width: 300px;
+    height: 00px;
+   display: flex;
     
  }  
  .photo img  {
-    width: 800px;
+    width: 600px;
     height: 600px;
     display: flex; 
  } 
@@ -72,7 +72,7 @@ body {
    
  }
  .text {
-    margin-left: 480px;
+    margin-left: 980px;
     padding: 70px;
  }
  .text h1 {
@@ -111,7 +111,7 @@ i {
  }  
    
 .comp {
-   margin-left: 30px;
+   margin-left: 60px;
    font-size: x-large;
    color: rgb(171, 167, 167);
    
@@ -121,6 +121,7 @@ i {
    width: 500px;
    color: whitesmoke;
    margin-left: 10px;
+   
  }
  .conteiner {
    width: 1600px;
@@ -145,7 +146,7 @@ i {
    border-radius: 15px;
  }
  .photoo {
-   width: 290px;
+   width: 250px;
    height: 100px;
    display: flex;
    margin-left: 940px;
